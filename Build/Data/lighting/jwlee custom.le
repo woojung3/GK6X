@@ -1,0 +1,19 @@
+{
+	"Type": "Static",
+	"Data": {
+		"A": "0x0000FF",
+		"S": "0x0000FF",
+		"D": "0x0000FF",
+		"H": "0x00ff00",
+		"J": "0x00ff00",
+		"K": "0x00ff00",
+		"L": "0x00ff00",
+		"U": "0x800080",
+		"I": "0xff0000",
+		"O": "0xff0000",
+		"Semicolon": "0xFFFF00",
+		"Quotes": "0xFFFF00",
+		"N": "0xFFFF00",
+		"M": "0xFFFF00"
+	}
+}
