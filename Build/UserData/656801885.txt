@@ -1,4 +1,4 @@
-﻿##################################################################
+##################################################################
 # Mapping keys
 ##################################################################
 
@@ -23,8 +23,15 @@ Menu:Menu
 Slash:Slash
 RCtrl:RCtrl
 
-#[Layer2]
-# Reserved for macros
+# MacOS Layout
+[Layer2]
+RAlt:CapsLock
+
+[FnLayer2]
+RAlt:LCtrl+Left
+Menu:LCtrl+Down
+Slash:LCtrl+Up
+RCtrl:LCtrl+Right
 
 [Layer3]
 A:MediaPlayPause
