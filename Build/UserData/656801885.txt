@@ -25,7 +25,7 @@ RCtrl:RCtrl
 
 # MacOS Layout
 [Layer2]
-RAlt:CapsLock
+RAlt:F19
 
 [FnLayer2]
 RAlt:LCtrl+Left
