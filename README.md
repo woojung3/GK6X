@@ -1,3 +1,26 @@
+# 빌드 방법
+## 맥
+1. install mono package
+2. run xbuild GK6X.sln 
+
+There is warnings:
+
+```
+>>>> xbuild tool is deprecated and will be removed in future updates, use msbuild instead <<<<
+GK6X.sln:  warning : Don't know how to handle GlobalSection ExtensibilityGlobals, Ignoring.
+```
+
+3. run program
+```bash
+cd Build
+sudo mono GK6X.exe
+```
+
+# 사용법
+dumpkeys
+findkeys
+map
+
 # GK6X
 
 This tool allows you to set keys, macros, and lighting for GK6X keyboards (GK64, GK84, GK61, etc). This can be used as an alternative to the official software http://www.jikedingzhi.com/downloadlist?driverID=41latest
