@@ -5,6 +5,7 @@
 
 #GK6X
 /Build/UserData/*
+!/Build/UserData/656801884.txt
 !/Build/UserData/Sample.txt
 /Build/*.exe
 /Build/*.pdb
@@ -18,6 +19,10 @@
 *.user
 *.userosscache
 *.sln.docstates
+
+# MacOS
+.DS_Store
+Build/.DS_Store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

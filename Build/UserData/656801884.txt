@@ -1,0 +1,83 @@
+##################################################################
+# Mapping keys
+##################################################################
+
+# Default keys will be used, if nothing is set
+
+# [Base,Layer1,Layer2,Layer3,FnLayer1,FnLayer2,FnLayer3]
+
+[Base,Layer1,Layer2,Layer3]
+CapsLock:TempSwitchLayer3
+
+#[FnLayer1,FnLayer2,FnLayer3]
+
+[Layer1]
+RAlt:Left
+Menu:Down
+Slash:Up
+RCtrl:Right
+
+[FnLayer1]
+RAlt:RAlt
+Menu:Menu
+Slash:Slash
+RCtrl:RCtrl
+
+# MacOS Layout
+[Layer2]
+RAlt:F19
+
+[FnLayer2]
+L:LCtrl+Left
+Semicolon:LCtrl+Right
+Quotes:LCtrl+Up
+Enter:LCtrl+Down
+
+[Layer3]
+A:MediaPlayPause
+S:VolumeDown
+D:VolumeUp
+
+H:Left
+J:Down
+K:Up
+L:Right
+
+U:PrintScreen
+I:Delete
+O:LShift+Delete
+
+# MacOS Home/End
+Semicolon:LWin+Left
+Quotes:End:LWin+Right
+
+# Others Home/End
+Semicolon:Home
+Quotes:End
+N:PageUp
+M:PageDown
+
+D1:F1
+D2:F2
+D3:F3
+D4:F4
+D5:F5
+D6:F6
+D7:F7
+D8:F8
+D9:F9
+D0:F10
+Subtract:F11
+Add:F12
+
+Esc:BackTick
+
+##################################################################
+# Lighting
+##################################################################
+
+[Lighting(jwlee custom,Base)]
+[Lighting(Windmill,Base)]
+
+# This is needed
+[NoLighting]
