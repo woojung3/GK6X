@@ -4,36 +4,24 @@
 
 # Default keys will be used, if nothing is set
 
-# [Base,Layer1,Layer2,Layer3,FnLayer1,FnLayer2,FnLayer3]
+# List: [Base,Layer1,Layer2,Layer3,FnLayer1,FnLayer2,FnLayer3]
 
-[Base,Layer1,Layer2,Layer3]
-CapsLock:TempSwitchLayer3
+[Base,Layer1]
+CapsLock:TempSwitchLayer2
 
-#[FnLayer1,FnLayer2,FnLayer3]
-
+# MacOS Layer
 [Layer1]
-RAlt:Left
-Menu:Down
-Slash:Up
-RCtrl:Right
-
-[FnLayer1]
-RAlt:RAlt
-Menu:Menu
-Slash:Slash
-RCtrl:RCtrl
-
-# MacOS Layout
-[Layer2]
+CapsLock:TempSwitchLayer3
 RAlt:F19
 
-[FnLayer2]
+[FnLayer1]
 L:LCtrl+Left
 Semicolon:LCtrl+Right
 Quotes:LCtrl+Up
 Enter:LCtrl+Down
 
-[Layer3]
+# CapsLock Layer
+[Layer2, Layer3]
 A:MediaPlayPause
 S:VolumeDown
 D:VolumeUp
@@ -47,13 +35,9 @@ U:PrintScreen
 I:Delete
 O:LShift+Delete
 
-# MacOS Home/End
-Semicolon:LWin+Left
-Quotes:End:LWin+Right
-
-# Others Home/End
 Semicolon:Home
 Quotes:End
+
 N:PageUp
 M:PageDown
 
@@ -71,6 +55,12 @@ Subtract:F11
 Add:F12
 
 Esc:BackTick
+
+# MacOS CapsLock Layer
+[Layer3]
+# Home/End
+Semicolon:LWin+Left
+Quotes:LWin+Right
 
 ##################################################################
 # Lighting
