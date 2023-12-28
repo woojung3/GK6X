@@ -23,8 +23,8 @@ Enter:LCtrl+Down
 # CapsLock Layer
 [Layer2, Layer3]
 A:MediaPlayPause
-S:VolumeDown
-D:VolumeUp
+# S:VolumeDown
+# D:VolumeUp
 
 H:Left
 J:Down
