@@ -14,17 +14,16 @@ CapsLock:TempSwitchLayer2
 CapsLock:TempSwitchLayer3
 RAlt:F19
 
-[FnLayer1]
-L:LCtrl+Left
-Semicolon:LCtrl+Right
-Quotes:LCtrl+Up
-Enter:LCtrl+Down
+# [FnLayer1]
 
 # CapsLock Layer
 [Layer2, Layer3]
-A:MediaPlayPause
+Q:MediaPlayPause
 # S:VolumeDown
 # D:VolumeUp
+A:LCtrl+Up
+S:LCtrl+Left
+D:LCtrl+Right
 
 H:Left
 J:Down
