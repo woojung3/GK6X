@@ -19,6 +19,7 @@ RAlt:F19
 # CapsLock Layer
 [Layer2, Layer3]
 Q:MediaPlayPause
+W:LCtrl+F4
 # S:VolumeDown
 # D:VolumeUp
 A:LCtrl+Up
